@@ -1,0 +1,245 @@
+:root {
+  --secondary-font: "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --text-color: #212121;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.blue-logo {
+  color: #2196f3;
+}
+.black-logo {
+  color: var(--text-color);
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-phone-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.link-phone-mail:hover,
+.link-phone-mail:focus {
+  color: #2196f3;
+}
+.index-main {
+}
+.main-background {
+  background: #2f303a;
+}
+.head-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.order-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0cm;
+}
+.worker {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.photo-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-job {
+  background-color: #ffffff;
+}
+.our-team {
+  background: #f5f4fa;
+}
+.img-shadow {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  top: 1635px;
+}
+
+/* wiem że poniżej z .position-x jest coś nie tak ale zastanawiam sie nad display: inline które
+  nie chce mi działać */
+
+.position-1 {
+  height: 368px;
+  left: 215px;
+}
+.position-2 {
+  height: 368px;
+  left: 515px;
+}
+.position-3 {
+  height: 368px;
+  left: 815px;
+}
+.position-4 {
+  height: 368px;
+  left: 1115px;
+}
+
+footer {
+  background: #2f303a;
+}
+.white-logo {
+  color: #ffffff;
+}
+.link-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-map:hover,
+.link-map:focus {
+  color: #2196f3;
+}
+
+/* Portfolio styles */
+
+.portfolio-main {
+}
+.portfolio-buttons {
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+
+  background: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+  background: #2196f3;
+}
+.button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button-text:hover,
+.button-text:focus {
+  color: #ffffff;
+}
+.portfolio-list {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.box-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.box-paragraph {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.box-1 {
+  left: 215px;
+  top: 262px;
+}
+.box-2 {
+  left: 615px;
+  top: 262px;
+}
+.box-3 {
+  left: 1015px;
+  top: 262px;
+}
+.box-4 {
+  left: 215px;
+  top: 696px;
+}
+.box-5 {
+  left: 615px;
+  top: 696px;
+}
+.box-6 {
+  left: 1015px;
+  top: 696px;
+}
+.box-7 {
+  left: 215px;
+  top: 1130px;
+}
+.box-8 {
+  left: 615px;
+  top: 1130px;
+}
+.box-9 {
+  left: 1015px;
+  top: 1130px;
+}
