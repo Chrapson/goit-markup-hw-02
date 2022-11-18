@@ -30,6 +30,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--text-color);
 }
 
 .link-phone-mail {
@@ -79,12 +80,15 @@ body {
   cursor: pointer;
   border: 0cm;
 }
+.list-item {
+  color: var(--text-color);
+}
 .worker {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: var(--text-color);
 }
 .photo-paragraph {
   font-size: 14px;
@@ -92,11 +96,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-h2 {
+.our-job-header {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 .our-job {
   background-color: #ffffff;
@@ -113,27 +118,7 @@ h2 {
   top: 1635px;
 }
 
-/* wiem że poniżej z .position-x jest coś nie tak ale zastanawiam sie nad display: inline które
-  nie chce mi działać */
-
-.position-1 {
-  height: 368px;
-  left: 215px;
-}
-.position-2 {
-  height: 368px;
-  left: 515px;
-}
-.position-3 {
-  height: 368px;
-  left: 815px;
-}
-.position-4 {
-  height: 368px;
-  left: 1115px;
-}
-
-footer {
+.footer {
   background: #2f303a;
 }
 .white-logo {
@@ -156,10 +141,8 @@ footer {
 
 .portfolio-main {
 }
-.portfolio-buttons {
+.portfolio-button {
   width: 121px;
-  height: 38px;
-  left: 510px;
   top: 174px;
 
   background: #f5f4fa;
@@ -167,28 +150,23 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
-}
-.portfolio-buttons:hover,
-.portfolio-buttons:focus {
-  background: #2196f3;
-}
-.button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
+  border: none
 }
-.button-text:hover,
-.button-text:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: #2196f3;
   color: #ffffff;
 }
+
 .portfolio-list {
   box-sizing: border-box;
   width: 370px;
-  height: 404px;
-  left: 215px;
   top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -205,41 +183,4 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.box-1 {
-  left: 215px;
-  top: 262px;
-}
-.box-2 {
-  left: 615px;
-  top: 262px;
-}
-.box-3 {
-  left: 1015px;
-  top: 262px;
-}
-.box-4 {
-  left: 215px;
-  top: 696px;
-}
-.box-5 {
-  left: 615px;
-  top: 696px;
-}
-.box-6 {
-  left: 1015px;
-  top: 696px;
-}
-.box-7 {
-  left: 215px;
-  top: 1130px;
-}
-.box-8 {
-  left: 615px;
-  top: 1130px;
-}
-.box-9 {
-  left: 1015px;
-  top: 1130px;
 }
