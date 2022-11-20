@@ -7,7 +7,7 @@ body {
   font-family: var(--main-font);
   color: var(--text-color);
 }
-.header {
+.body-header {
   background-color: #ffffff;
 }
 .logo {
@@ -24,7 +24,7 @@ body {
 .black-logo {
   color: var(--text-color);
 }
-.link {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,10 +43,8 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
+.nav-link:hover,
+.nav-link:focus,
 .link-phone-mail:hover,
 .link-phone-mail:focus {
   color: #2196f3;
@@ -80,23 +78,40 @@ body {
   cursor: pointer;
   border: 0cm;
 }
+.nav-list,
+.our-job-list,
+.solutions-list,
+.team-list,
+.footer-list,
+.portfolio-nav-list,
+.portfolio-job-list {
+  list-style-type: none;
+}
+.solutions-list-item,
 .list-item {
   color: var(--text-color);
 }
-.worker {
+.solutions-list-element {
+  color: #757575;
+}
+.solutions-list-header {
+  text-transform: uppercase;
+}
+.team-worker {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.photo-paragraph {
+.team-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.our-job-header {
+.our-job-header,
+.team-header {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -106,10 +121,10 @@ body {
 .our-job {
   background-color: #ffffff;
 }
-.our-team {
+.team {
   background: #f5f4fa;
 }
-.img-shadow {
+.team-img-shadow {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -156,7 +171,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  border: none
+  border: none;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -164,21 +179,21 @@ body {
   color: #ffffff;
 }
 
-.portfolio-list {
+.portfolio-job-list-element {
   box-sizing: border-box;
   width: 370px;
   top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.box-header {
+.portfolio-job-header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
-.box-paragraph {
+.portfolio-job-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
