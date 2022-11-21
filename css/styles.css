@@ -127,8 +127,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /*width: 270px;*/
-  top: 1635px;
 }
 
 .footer {
@@ -155,8 +153,6 @@ body {
 .portfolio-main {
 }
 .portfolio-button {
-  top: 174px;
-
   background: var(--alt-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -178,8 +174,6 @@ body {
 
 .portfolio-job-list-element {
   box-sizing: border-box;
-  /*width: 370px;*/
-  top: 262px;
   background: var(--white);
   border: 1px solid #eeeeee;
 }
