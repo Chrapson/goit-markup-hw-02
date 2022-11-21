@@ -82,13 +82,7 @@ body {
   cursor: pointer;
   border: 0cm;
 }
-.nav-list,
-.our-job-list,
-.solutions-list,
-.team-list,
-.footer-list,
-.portfolio-nav-list,
-.portfolio-job-list {
+.list {
   list-style-type: none;
 }
 .solutions-list-item,
@@ -133,7 +127,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 270px;
+  /*width: 270px;*/
   top: 1635px;
 }
 
@@ -161,7 +155,6 @@ body {
 .portfolio-main {
 }
 .portfolio-button {
-  width: 121px;
   top: 174px;
 
   background: var(--alt-white);
@@ -185,7 +178,7 @@ body {
 
 .portfolio-job-list-element {
   box-sizing: border-box;
-  width: 370px;
+  /*width: 370px;*/
   top: 262px;
   background: var(--white);
   border: 1px solid #eeeeee;
